@@ -1,0 +1,72 @@
+.Navbar{
+    /* background-color: rgb(207, 244, 207); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    box-shadow: 0 1px 3px -2px black;
+}
+.nav1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav1 p{
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 10px;
+}
+ul{
+    display: flex;
+    gap:35px;
+    cursor: pointer;
+}
+ul li{
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+ul li a{
+    text-decoration: none;
+    color: #171717;
+}
+.nav3{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+.nav3 button{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid #7a7a7a;
+    outline: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+}
+.nav3 button a{
+    text-decoration: none;
+    color: #171717;
+}
+.nav3 button:active{
+    background-color: #f3f3f3;
+}
+.count{
+    position: absolute;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    top: -2px;
+    right: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 13px;
+}
+.active{
+    color: blue;
+}
